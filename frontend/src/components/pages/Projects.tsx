@@ -24,8 +24,8 @@ const Projects = ({id}: {id: string}) => {
 
            <div className="bg-slate-800 p-6 rounded-xl border border-slate-700 hover:-translate-y-2 transition-transform duration-300">
             <h4 className="text-xl font-bold text-white mb-2">OTEC</h4>
-            <p className="text-slate-400 mb-4">Full stack Engineer.</p>
-            {/* here i wanted to put a graph of chart js */}
+            <p className="text-slate-400 mb-4">Full stack Engineer ERP software.</p>
+            <img src="/applus.png" alt="applus" className="w-full h-48 object-cover mb-4 rounded" />
             <div className="text-emerald-400 text-sm font-mono space-x-3">
               <span>React</span>
               <span>Tailwind CSS</span>
