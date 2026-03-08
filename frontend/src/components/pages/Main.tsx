@@ -4,9 +4,9 @@ const Hero = ({id}: {id: string}) => {
         <div className="text-left w-full">
           <p className="text-emerald-400 font-mono mb-4">Hi, my name is</p>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">Adrian Diaz.</h1>
-          <h2 className="text-4xl md:text-6xl font-bold text-slate-400 mb-6">I build things for the web.</h2>
+          <h2 className="text-4xl md:text-6xl font-bold text-slate-400 mb-6">Full-Stack Engineer</h2>
           <p className="max-w-xl text-slate-400 text-lg mb-10 leading-relaxed">
-            I'm a Full-Stack Developer based in Germany, specializing in building exceptional digital experiences using <span className="text-emerald-400">React, TypeScript, and Django</span>. Currently focused on production management software.
+            I'm a Full-Stack Developer based in Germany, specializing in building and extending complex, data-driven applications using <span className="text-emerald-400">React, TypeScript, and Django</span>. Currently focused on production management software.
           </p>
           
           <div className="flex space-x-4">

@@ -1,3 +1,5 @@
+import ModelViewer from "../CNCModel.tsx";
+
 const Projects = ({id}: {id: string}) => {
     return (
           <section id={id} className="pt-24 min-h-screen max-w-5xl mx-auto px-6 pb-20">
@@ -10,18 +12,19 @@ const Projects = ({id}: {id: string}) => {
           
           {/* Project Card 1 */}
           <div className="bg-slate-800 p-6 rounded-xl border border-slate-700 hover:-translate-y-2 transition-transform duration-300">
-            <h4 className="text-xl font-bold text-white mb-2">Production Path Editor</h4>
-            <p className="text-slate-400 mb-4">A web application built to serialize factory steps and manage production lots efficiently.</p>
-            <div className="text-emerald-400 text-sm font-mono space-x-3">
+            <h4 className="text-xl font-bold text-white mb-2">Daedalus</h4>
+            <p className="text-slate-400 mb-4">AI-driven precision manufacturing.</p>
+             <ModelViewer />
+             <div className="text-emerald-400 text-sm font-mono space-x-3">
               <span>React</span>
-              <span>Django</span>
-              <span>PostgreSQL</span>
+              <span>Tailwind CSS</span>
+              <span>TypeScript</span>
             </div>
           </div>
 
           {/* Project Card 2 */}
           <div className="bg-slate-800 p-6 rounded-xl border border-slate-700 hover:-translate-y-2 transition-transform duration-300">
-            <h4 className="text-xl font-bold text-white mb-2">Portfolio Website</h4>
+            <h4 className="text-xl font-bold text-white mb-2">Watttron</h4>
             <p className="text-slate-400 mb-4">A custom portfolio designed from scratch to showcase my skills and projects.</p>
             <div className="text-emerald-400 text-sm font-mono space-x-3">
               <span>React</span>

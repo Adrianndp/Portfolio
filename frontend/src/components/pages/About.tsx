@@ -6,10 +6,10 @@ const About = ({id}: {id: string}) => {
         </h3>
         <div className="text-slate-400 space-y-4 text-lg max-w-2xl">
           <p>
-            Hello! My name is Adrian and I enjoy creating things that live on the internet. My interest in web development started back when I wanted to build interactive tools...
+            Hello! My name is Adrian and I enjoy building solutions with code. My interest in web development started back when I wanted to build arcade games, and I later transitioned to software development in general when I discovered how much I enjoyed building things that could be used by others.
           </p>
           <p>
-            Fast-forward to today, and I've had the privilege of working on manufacturing software, building serializers, and designing APIs.
+            Fast-forward to today, and I've had the privilege of working on many sectors such as precision manufacturing, renewable energy, cleantech, and more.
           </p>
           <p>Here are a few technologies I've been working with recently:</p>
           <ul className="grid grid-cols-2 gap-2 mt-4 font-mono text-sm text-emerald-400">

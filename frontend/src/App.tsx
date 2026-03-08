@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar.tsx';
-import Hero from './components/Hero.tsx';
-import About from './components/About.tsx';
-import Projects from './components/Projects.tsx';
+import Hero from './components/pages/Main.tsx';
+import About from './components/pages/About.tsx';
+import Projects from './components/pages/Projects.tsx';
 
 export type SectionConfig = {
   id: string;
